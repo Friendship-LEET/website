@@ -1,1 +1,79 @@
 
+<HTML>
+<head>
+<link href="http://emojicss.com/emoji.css" rel="stylesheet">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret+One">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="animations.css">
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+<title>ZChips</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ee1b22">
+
+<center>
+<ul>
+  <li><a href="#home">ZChips</a></li>
+  <li><a href="http://www.twitter.com/ZChipsLEET"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.youtube.com/channel/UC5d8fyM7JiRr3AI4LHHZvwA"><i class="fa fa-youtube"></i></a></li>
+  <li><a href="https://github.com/Friendship-LEET"><i class="fa fa-github"></i></a></li>
+</ul>
+</center>
+
+
+<div style="padding:20px;margin-top:30px;background-color:#ff8000;height:1500px;float: left;">
+
+
+<body bgcolor="#ff8000" text="white" link="white">
+
+<center>
+<img class="image" src="https://www.gravatar.com/avatar/f78fafc9c6e7e4f5e445f10e233ea09e?size=192&d=mm" height=100 width=100>
+<div id="object" class="slideUp">
+<h1> Welcome to my Website! :) </h1>
+<i class="fa fa-adjust"></i>
+<p> Welcome to my website! It's filled with a bunch of random and exciting projects that I work on! <i class="em em---1"></i> </p>
+<hr>
+<br>
+</div>
+<div id="object" class="slideUp">
+<h1> Join my Forum! </h1>
+<p> http://frenchchips.esy.es/Forum </p>
+<hr>
+<br>
+</div>
+<div id="object" class="slideUp">
+<h1>About Me: <i class="em em-smile"></i></h1>
+<p> My name is Zack Scott, 15 years old. I'm a tech enthusiast and I <b>LOVE</b> chips. I am a gamer and play a large variety of games. But I usually hang around with most of my friends in games like Minecraft & Mobile games. </p>
+<hr>
+<br>
+</div>
+<div id="object" class="slideUp">
+<h1>My YouTube:</h1>
+<p>You can either just click <a href="https://www.youtube.com/channel/UC5d8fyM7JiRr3AI4LHHZvwA">here,</a> or go to bit.ly/ZChipsYT! :)</p>
+<hr>
+<br>
+</div>
+<div id="object" class="slideUp">
+<h1>My Twitter:</h1>
+<p> Its <a href="http://www.twitter.com/ZChipsLEET">@ZChipsLEET</a> <i class="em em---1"></i> </p>
+<hr>
+<br>
+</div>
+<script>
+	$(window).scroll(function() {
+		$('object').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+</script>
+</body>
+</HTML>
