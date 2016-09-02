@@ -1,5 +1,5 @@
 # Website
-**Link: frenchchips.esy.es**
+**Link: http://frenchchips.esy.es**
 
 All code for my website(frenchchips.esy.es) will be uploaded here. Feel free to use it whenever and wherever you want. :D
 # Can I use this code for my own personal use?
